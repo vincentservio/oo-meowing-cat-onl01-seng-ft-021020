@@ -3,8 +3,8 @@ require "pry"
 class Cat 
   attr_accessor :name 
   
-  def meow(cat_noise)
-   binding.pry
+  def meow
+  puts "meow!"
   end 
   
 end
